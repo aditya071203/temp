@@ -2,8 +2,8 @@
 
 # 1. Create a file and edit it
 echo "Creating a file 'myfile.txt' and editing it with text 'Hello World'"
-touch /home/$(whoami)/myfile.txt
-echo "Hello World" > /home/$(whoami)/myfile.txt
+touch /bin/myfile.txt
+echo "Hello World" > /home/myfile.txt
 
 # 2. Create a new user
 NEW_USER="newuser"
